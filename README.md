@@ -1,8 +1,7 @@
 # iis-aspnetcore-docker
 IIS Docker Image with the ASP.NET Core Module installed
 
-## How to use this image?
-### Create a Dockerfile with your website
+## Example usage
 ```
 FROM visibacare/iis-aspnetcore
 

@@ -9,7 +9,7 @@ RUN mkdir C:\your-site
 
 RUN powershell -NoProfile -Command \
     Import-module IISAdministration; \
-    New-IISSite -Name "YourSiteName" -PhysicalPath C:\site -BindingInformation "*:8000:"
+    New-IISSite -Name "YourSiteName" -PhysicalPath C:\your-site -BindingInformation "*:8000:"
 
 EXPOSE 8000
 
